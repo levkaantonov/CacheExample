@@ -58,7 +58,7 @@ dependencies {
     implementation "androidx.hilt:hilt-lifecycle-viewmodel:$hilt_lifecycle_version"
 
     // Coroutines
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutine_version"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutine_version"
 
     // Retrofit + GSON
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
@@ -71,6 +71,7 @@ dependencies {
 
     // LiveData
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$livedata_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$livedata_version"
 
     // Fragment
     implementation "androidx.fragment:fragment-ktx:$fragment_version"
